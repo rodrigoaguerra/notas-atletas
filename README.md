@@ -33,7 +33,7 @@ Foi salvo os dados do atleta em uma variavel temporaria atleta.
 let atleta = atletas[i];
 ```
 
-Conforme especificado, as notas da matriz de notas do atleta foram ordenadas em ordem decrecente utilizando o médoto 'sort()'.
+Conforme especificado, as notas da matriz de notas do atleta foram ordenadas em ordem decrescente utilizando o médoto 'sort()'.
 ```javascript
 let notas = [...atleta.notas];
 let notasOrdenadas = notas.sort((a, b) => a - b);
